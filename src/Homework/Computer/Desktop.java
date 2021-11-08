@@ -6,6 +6,8 @@ public class Desktop extends Computer {
         brand = "HP";
         operativeSystem = "Windows 10";
         screenSize = 19;
+        this.toString();
+
 
     }
 }

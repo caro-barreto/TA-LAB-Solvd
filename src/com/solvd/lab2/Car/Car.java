@@ -12,7 +12,7 @@ public class Car extends Vehicle {
 //    }
         // otra seria poner public Car(){
             // super(true)
-        //eso seria asumir que is mooving es siempre true
+        //eso seria asumir que is moving es siempre true
 
 }
 //    public Car(){

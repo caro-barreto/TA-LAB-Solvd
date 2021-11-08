@@ -6,6 +6,7 @@ public class Laptop extends Computer {
         brand = "Apple";
         operativeSystem = "Linux";
         screenSize = 13;
+
     }
 
     public void connectToInternet() {
