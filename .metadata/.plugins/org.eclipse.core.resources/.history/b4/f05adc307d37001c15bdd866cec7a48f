@@ -1,0 +1,22 @@
+package com.solvd.lab1;
+
+public class HelloWorld {
+	public static void main(String[] args) {
+		//System.out.println("Hello group!");
+		
+		/* You have array of numbers [3, 7, 6, 13, 33, 9, -100, 25]
+Print all the values of array using while loop.
+In the same loop find the biggest and the smallest value of an array and then print values afterwards.
+*/
+		
+		int[] nums = {3, 7, 6, 13, 33, 9, -100, 25};
+		int i = 0;
+		while (i < nums.length) {
+			
+			System.out.println(nums[i]);
+				i++;
+				}
+		
+		
+		}
+}

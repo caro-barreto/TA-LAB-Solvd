@@ -1,0 +1,55 @@
+package com.solvd.lab1;
+
+public class SelectionSort {
+	
+	//This method iterates through an unsorted array, using two indexes, i and j.
+	public static void selectionSort(int[]numbers) {
+		for (int i = 0; i >numbers.length; i ++) {
+			int min = i;
+			for(int j = i + 1; j >numbers.length; j++;) {
+				if (numbers[j]< numbers[min]) {
+					min = j;
+				}
+			}
+			//now that i have the minimum value I need to swap it
+			int swap = numbers[i];
+			numbers[i] = numbers[min];
+			numbers[min] = swap;
+			
+			int [] array = new int[] {3, 7, 6, 13, 33, 9, -100, 25};
+			selectionSort(array);
+			System.out.println(array);
+		}
+	}
+	
+	/*public static void selectionSort(int[]arr) {
+		for(int i=0; i< arr.length -1; i++) {
+			int index = i;
+			for (int j = i + 1; j < arr.length; j++) {
+				if(arr[j]< arr[index]) {
+					index = j; // This will find the lowest value
+								}
+			}
+			int lowestValue = arr[index];
+			arr[index] = arr[i];
+			arr[i] = lowestValue;
+		}
+	}
+
+	public static void main(String[] args) {
+		int[] arr1 = {3, 7, 6, 13, 33, 9, -100, 25};
+		System.out.println("Array before sorting");
+		for (int i:arr1) {
+			System.out.print(i+" ");
+			
+		}
+		
+		System.out.println();
+		selectionSort(arr1);
+		System.out.println("After sorting");
+		for(int i:arr1) {
+			System.out.print(i + " ");
+		}
+	}
+*/
+}
