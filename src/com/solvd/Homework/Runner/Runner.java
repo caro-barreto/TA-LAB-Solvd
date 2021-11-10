@@ -1,7 +1,7 @@
-package Homework.Runner;
+package com.solvd.Homework.Runner;
 
-import Homework.Computer.Desktop;
-import Homework.Computer.Laptop;
+import com.solvd.Homework.Computer.Desktop;
+import com.solvd.Homework.Computer.Laptop;
 
 public class Runner {
     @Override

@@ -1,4 +1,4 @@
-package Homework.BubbleSortRecursion;
+package com.solvd.Homework.BubbleSortRecursion;
 import java.util.Arrays;
 
 public class BubbleSortRecursion {

@@ -1,4 +1,4 @@
-package Homework.RandomString;
+package com.solvd.Homework.RandomString;
 
 import java.util.Random;
 

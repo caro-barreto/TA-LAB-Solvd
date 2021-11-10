@@ -1,4 +1,4 @@
-package com.solvd.lab2.Car;
+package com.solvd.lab2.Car.Car;
 
 public class Car extends Vehicle {
     public Car(boolean isMoving){
@@ -8,25 +8,25 @@ public class Car extends Vehicle {
         }
 
 //    public void drive(){
-//        System.out.println("Car is driving");
+//        System.out.println("com.solvd.lab2.Car.Car.Car.Car is driving");
 //    }
-        // otra seria poner public Car(){
+        // otra seria poner public com.solvd.lab2.Car.Car.Car.Car(){
             // super(true)
         //eso seria asumir que is moving es siempre true
 
 }
-//    public Car(){
+//    public com.solvd.lab2.Car.Car.Car.Car(){
 //        model = "Tesla";
 //        maxSpeed = 200;
 //        isMooving = false;
 //    }
-    //public Car(){
+    //public com.solvd.lab2.Car.Car.Car.Car(){
        // model = "Tesla";
       //  maxSpeed = 200;
         // isMooving = false;
 
 
-    /*public Car(String model){
+    /*public com.solvd.lab2.Car.Car.Car.Car(String model){
         this.model = model;
         //this = este objeto
         //setea esa propiedad por parametro.
@@ -34,7 +34,7 @@ public class Car extends Vehicle {
 
 
     /*public static void main(String[] args) {
-        Car car = new Car("Toyota");
+        com.solvd.lab2.Car.Car.Car.Car car = new com.solvd.lab2.Car.Car.Car.Car("Toyota");
         System.out.println("Model: " + car.model);
         System.out.println("Max speed: " + car.maxSpeed);
     }*/

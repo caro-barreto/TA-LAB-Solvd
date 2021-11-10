@@ -1,4 +1,6 @@
-package com.solvd.lab2.Car;
+package com.solvd.lab2.Car.Car;
+
+import com.solvd.lab2.Car.Car.Vehicle;
 
 public class Bicycle extends Vehicle {
     public Bicycle(boolean isMoving) {

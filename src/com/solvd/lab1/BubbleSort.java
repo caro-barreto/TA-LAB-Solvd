@@ -1,4 +1,4 @@
-package lab1;
+package com.solvd.lab1;
 
 public class BubbleSort {
 

@@ -1,8 +1,5 @@
-package Homework.Computer;
+package com.solvd.Homework.Computer;
 
-import com.sun.tools.javac.Main;
-
-import javax.imageio.stream.ImageInputStream;
 import java.util.Objects;
 
 public class Computer {

@@ -1,4 +1,4 @@
-package com.solvd.lab2.Car;
+package com.solvd.lab2.Car.Car;
 
 public class Vehicle {
     protected String model;

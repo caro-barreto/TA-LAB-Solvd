@@ -1,4 +1,4 @@
-package Homework.Computer;
+package com.solvd.Homework.Computer;
 
 public class Desktop extends Computer {
     public Desktop(boolean isTurnedOn) {
