@@ -4,39 +4,27 @@ import com.solvd.Homework.Computer.Desktop;
 import com.solvd.Homework.Computer.Laptop;
 
 public class Runner {
-    @Override
-    public int hashCode() {
-        return super.hashCode();
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        return super.equals(obj);
-    }
-
-    @Override
-    public String toString() {
-        return super.toString();
-    }
 
     public static void main(String[] args) {
 
+
         Desktop desktop = new Desktop(true);
+        desktop.setGraphics("RX6600");
         desktop.setScreenSize(21);
-        desktop.getBrand();
-        System.out.println("This is a " + desktop.getBrand());
         desktop.connectToInternet();
         desktop.connectToInternet(200);
+        System.out.println("This has a " + desktop.getGraphics());
         System.out.println("------------------");
 
-        Laptop laptop = new Laptop(true);
+        Laptop laptop = new Laptop(true, "Intel I7");
         laptop.setScreenSize(15);
         laptop.connectToInternet();
         laptop.disconnectFromInternet();
         laptop.turnOff();
 
+
         System.out.println();
-        Laptop laptop1 = new Laptop(true);
+        Laptop laptop1 = new Laptop(true, "Intel I7");
         laptop1.setScreenSize(14);
         laptop1.connectToInternet();
 
@@ -50,7 +38,20 @@ public class Runner {
         System.out.println(answerLaptop);
         System.out.println();
 
+    }
 
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
     }
 }

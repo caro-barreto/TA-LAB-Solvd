@@ -18,6 +18,12 @@ public class Vehicle {
     public int getMaxSpeed() {
         return maxSpeed;
     }
+
+    //setter
+    public void setMaxSpeed(int maxSpeed) {
+        this.maxSpeed = maxSpeed;
+    }
+
     //setter
     public boolean isMoving() {
         return isMoving;
@@ -28,11 +34,6 @@ public class Vehicle {
     }
     public void drive(int speed){
         System.out.println("Vehicle is driving at speed "+ speed);
-    }
-
-    //setter
-    public void setMaxSpeed(int maxSpeed) {
-        this.maxSpeed = maxSpeed;
     }
 
     public void start(){

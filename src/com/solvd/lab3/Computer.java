@@ -1,8 +1,8 @@
-package com.solvd.Homework.Computer;
+package com.solvd.lab3;
 
 import java.util.Objects;
 
-public class Computer {
+public abstract class Computer implements ICalculator, IStoreFiles, IIDE, ISearchEngine, IPhotoshop {
 
     //Attributes
     protected String brand;
@@ -11,9 +11,15 @@ public class Computer {
     protected boolean isTurnedOn;
 
     public Computer(boolean isTurnedOn) {
-        this.brand = brand;
-        this.operativeSystem = operativeSystem;
         this.isTurnedOn = isTurnedOn;
+        this.brand = brand;
+        this.operativeSystem = getOperativeSystem();
+        this.screenSize = getScreenSize();
+
+    }
+
+    private int getScreenSize() {
+        return screenSize;
     }
 
     public void setScreenSize(int screenSize) {
@@ -47,8 +53,10 @@ public class Computer {
 
     @Override
     public String toString() {
-        return "Computer{"+
-                "screenSize=" + screenSize +
+        return "Computer{" +
+                "brand='" + brand + '\'' +
+                ", operativeSystem='" + operativeSystem + '\'' +
+                ", screenSize=" + screenSize +
                 ", isTurnedOn=" + isTurnedOn +
                 '}';
     }
@@ -65,5 +73,7 @@ public class Computer {
     public int hashCode() {
         return Objects.hash(brand, operativeSystem, screenSize, isTurnedOn);
     }
+    abstract void createFile();
+    abstract void deleteFile();
 }
 
