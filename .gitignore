@@ -1,25 +1,35 @@
+# User-specific stuff
+.idea/workspace.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/runConfigurations.xml
+.idea/TA_lab.iml
+.idea/shelf
+.idea/vcs.xml
+.idea/workspace.xml
+
+
+# CMake
+cmake-build-*/
+
+
+# File-based project format
+*.iws
+
+out/
+
+
+*.iml
+*.ipr
 *.class
-
+*.log
 *.ctxt
-
 *.jar
 *.war
 *.nar
+*.ear
 *.zip
 *.tar.gz
-*.ear
 *.rar
-
-*.log
-
-/idea/
-/lab1/
-/settings/
-/metadata/
-/com.solvd/
-/out/
-*.classpath
-
-*.project
 
 
