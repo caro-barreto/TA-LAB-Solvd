@@ -80,13 +80,13 @@ public class Laptop extends Computer {
 
     @Override
     public void openCalculator() {
-        System.out.println("Calculator was opened");
+        System.out.println("Hello from calculator");
 
     }
 
     @Override
     public void enterOperation() {
-        System.out.println("Calculation made from Laptop");
+        System.out.println("Operation made from Laptop");
 
     }
 
