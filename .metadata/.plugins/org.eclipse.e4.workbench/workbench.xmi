@@ -886,7 +886,7 @@
           <children xmi:id="_cbs9ojWNEeyQovIWhxgh-w" elementId="org.eclipse.wst.xml.dependencies" name="XML Source Dependencies" description="XML Source Dependencies"/>
         </children>
         <children xmi:id="_cbs9njWNEeyQovIWhxgh-w" elementId="org.eclipse.ant.ui.AntEditorScope" name="Editing Ant Buildfiles" description="Editing Ant Buildfiles Context"/>
-        <children xmi:id="_cbs9ozWNEeyQovIWhxgh-w" elementId="org.eclipse.jdt.ui.propertiesEditorScope" name="Editing Properties Files" description="Editing Properties Files Context"/>
+        <children xmi:id="_cbs9ozWNEeyQovIWhxgh-w" elementId="org.eclipse.jdt.ui.propertiesEditorScope" name="Editing Properties com.solvd.lab4.Files" description="Editing Properties com.solvd.lab4.Files Context"/>
       </children>
       <children xmi:id="_cbs9hDWNEeyQovIWhxgh-w" elementId="org.eclipse.debug.ui.console" name="In I/O Console" description="In I/O console"/>
       <children xmi:id="_cbs9hTWNEeyQovIWhxgh-w" elementId="org.eclipse.tm.terminal.view.ui.TerminalsView" name="In Terminal View" description="Show modified keyboard shortcuts in context menu"/>
@@ -1647,7 +1647,7 @@
   <commands xmi:id="_ca_L0zWNEeyQovIWhxgh-w" elementId="org.eclipse.jdt.ui.correction.encapsulateField.assist" commandName="Quick Assist - Create getter/setter for field" description="Invokes quick assist and selects 'Create getter/setter for field'" category="_caKsdTWNEeyQovIWhxgh-w"/>
   <commands xmi:id="_ca_L1DWNEeyQovIWhxgh-w" elementId="org.eclipse.oomph.setup.editor.openEditorDropdown" commandName="Open Setup Editor" category="_caKFZjWNEeyQovIWhxgh-w"/>
   <commands xmi:id="_ca_L1TWNEeyQovIWhxgh-w" elementId="org.eclipse.eclemma.ui.junitRAPShortcut.coverage" commandName="Coverage RAP JUnit Test" description="Coverage RAP JUnit Test" category="_caKFdTWNEeyQovIWhxgh-w"/>
-  <commands xmi:id="_ca_L1jWNEeyQovIWhxgh-w" elementId="org.eclipse.egit.ui.team.ReplaceWithTheirs" commandName="Replace Conflicting Files with Their Revision" category="_caKscTWNEeyQovIWhxgh-w"/>
+  <commands xmi:id="_ca_L1jWNEeyQovIWhxgh-w" elementId="org.eclipse.egit.ui.team.ReplaceWithTheirs" commandName="Replace Conflicting com.solvd.lab4.Files with Their Revision" category="_caKscTWNEeyQovIWhxgh-w"/>
   <commands xmi:id="_ca_L1zWNEeyQovIWhxgh-w" elementId="org.eclipse.ui.toggleShowKeys" commandName="Toggle Show Key Bindings" description="Shows key binding when command is invoked" category="_caKFbzWNEeyQovIWhxgh-w"/>
   <commands xmi:id="_ca_L2DWNEeyQovIWhxgh-w" elementId="org.eclipse.ui.help.quickStartAction" commandName="Welcome" description="Show help for beginning users" category="_caKFcTWNEeyQovIWhxgh-w"/>
   <commands xmi:id="_ca_L2TWNEeyQovIWhxgh-w" elementId="org.eclipse.egit.ui.team.ReplaceWithPrevious" commandName="Replace with Previous Revision" category="_caKscTWNEeyQovIWhxgh-w"/>
@@ -1873,7 +1873,7 @@
   <commands xmi:id="_cbgJOTWNEeyQovIWhxgh-w" elementId="org.eclipse.ui.genericeditor.findReferences" commandName="Find References" description="Find other code items referencing the current selected item." category="_caLTgTWNEeyQovIWhxgh-w"/>
   <commands xmi:id="_cbgJOjWNEeyQovIWhxgh-w" elementId="org.eclipse.ui.edit.text.goto.lineEnd" commandName="Line End" description="Go to the end of the line of text" category="_caKFZzWNEeyQovIWhxgh-w"/>
   <commands xmi:id="_cbgJOzWNEeyQovIWhxgh-w" elementId="org.eclipse.ui.file.refresh" commandName="Refresh" description="Refresh the selected items" category="_caKFazWNEeyQovIWhxgh-w"/>
-  <commands xmi:id="_cbgJPDWNEeyQovIWhxgh-w" elementId="org.eclipse.egit.ui.team.ReplaceWithOurs" commandName="Replace Conflicting Files with Our Revision" category="_caKscTWNEeyQovIWhxgh-w"/>
+  <commands xmi:id="_cbgJPDWNEeyQovIWhxgh-w" elementId="org.eclipse.egit.ui.team.ReplaceWithOurs" commandName="Replace Conflicting com.solvd.lab4.Files with Our Revision" category="_caKscTWNEeyQovIWhxgh-w"/>
   <commands xmi:id="_cbgJPTWNEeyQovIWhxgh-w" elementId="org.eclipse.egit.ui.RepositoriesViewChangeCredentials" commandName="Change Credentials" category="_caKscTWNEeyQovIWhxgh-w"/>
   <commands xmi:id="_cbgwQDWNEeyQovIWhxgh-w" elementId="org.eclipse.wst.xml.ui.referencedFileErrors" commandName="Show Details..." description="Show Details..." category="_caLTgTWNEeyQovIWhxgh-w"/>
   <commands xmi:id="_cbgwQTWNEeyQovIWhxgh-w" elementId="org.eclipse.jdt.ui.correction.extractMethodInplace.assist" commandName="Quick Assist - Extract method" description="Invokes quick assist and selects 'Extract to method'" category="_caKsdTWNEeyQovIWhxgh-w"/>

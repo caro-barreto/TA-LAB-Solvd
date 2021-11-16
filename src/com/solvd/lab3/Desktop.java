@@ -17,12 +17,27 @@ public class Desktop extends Computer {
 
     static String memoriaRAM = "12GB";
 
+    @Override
+    public String getOperativeSystem() {
+        return super.getOperativeSystem();
+    }
+
+    @Override
+    public int makeSumofNegativeNumbers(int a, int b) throws CustomException {
+        return super.makeSumofNegativeNumbers(a, b);
+    }
+
+    @Override
+    public String checkIfWindows() throws CustomException {
+        return super.checkIfWindows();
+    }
+
     static void scanForViruses() {
         System.out.println("Scanning for viruses from static method");
     }
 
     @Override
-    public void setScreenSize(int screenSize) {
+    public void setScreenSize(int screenSize) throws CustomException {
         super.setScreenSize(screenSize);
     }
 

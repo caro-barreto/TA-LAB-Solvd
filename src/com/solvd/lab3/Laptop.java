@@ -15,10 +15,20 @@ public class Laptop extends Computer {
     private String processor;
 
     @Override
-    public void setScreenSize(int screenSize) {
+    public void setScreenSize(int screenSize) throws CustomException {
         super.setScreenSize(screenSize);
     }
 
+
+    @Override
+    public int makeSumofNegativeNumbers(int a, int b) throws CustomException {
+        return super.makeSumofNegativeNumbers(a, b);
+    }
+
+    @Override
+    public String checkIfWindows() throws CustomException {
+        return super.checkIfWindows();
+    }
 
     @Override
     public String getOperativeSystem() {
