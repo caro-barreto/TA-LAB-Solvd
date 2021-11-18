@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="023c2925-47f6-45cf-afd8-b5aa501ae979" name="Changes" comment="- packages reorganized">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/solvd/lab4/LinuxException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/solvd/lab4/UnderAgeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/solvd/lab4/WindowsException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitignore.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_Lab/com/solvd/lab3/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_Lab/com/solvd/lab3/Computer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_Lab/com/solvd/lab3/CustomException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_Lab/com/solvd/lab3/CustomException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_Lab/com/solvd/lab3/Desktop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_Lab/com/solvd/lab3/Desktop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_Lab/com/solvd/lab3/ExceptionRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_Lab/com/solvd/lab3/ExceptionRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_Lab/com/solvd/lab3/Laptop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_Lab/com/solvd/lab3/Laptop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_Lab/com/solvd/lab3/PrivateLaptop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_Lab/com/solvd/lab3/PrivateLaptop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_Lab/com/solvd/lab3/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_Lab/com/solvd/lab3/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/lab3/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/lab3/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/lab3/CustomException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/lab3/CustomException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/lab3/Desktop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/lab3/Desktop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/lab3/ExceptionRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/lab3/ExceptionRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/lab3/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/lab3/Laptop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/lab3/PrivateLaptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/lab3/PrivateLaptop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/lab3/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/lab3/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/solvd/lab3/ExceptionRunner.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
