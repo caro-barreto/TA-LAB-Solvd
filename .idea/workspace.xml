@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="023c2925-47f6-45cf-afd8-b5aa501ae979" name="Changes" comment="- packages reorganized">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/solvd/lab3/ExceptionRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plasticocruel.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plasticocruel.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/solvd/lab3/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/lab3/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/solvd/lab3/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/solvd/lab3/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,8 +106,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Runner" />
-        <item itemvalue="Application.ExceptionRunner" />
         <item itemvalue="Application.Reader" />
+        <item itemvalue="Application.ExceptionRunner" />
         <item itemvalue="Application.RunnerReader" />
       </list>
     </recent_temporary>

@@ -2,6 +2,7 @@ package com.solvd.lab3;
 
 import com.solvd.lab4.LinuxException;
 import com.solvd.lab4.WindowsException;
+import com.solvd.lab4.WrongScreenSize;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -9,7 +10,7 @@ import java.util.logging.Logger;
 import static com.solvd.lab3.Computer.*;
 
 public class Runner {
-    public static void main(String[] args) throws CustomException, WindowsException {
+    public static void main(String[] args) throws CustomException, WindowsException, WrongScreenSize {
         //como esta definido a nivel de paquete puedo modificar el valor desde runner
         //Modifier.fieldStatic = "STATIC - 2";
         //System.out.println(Modifier.fieldStatic);

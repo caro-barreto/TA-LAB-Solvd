@@ -6,6 +6,8 @@ import com.solvd.lab4.WindowsException;
 import com.solvd.lab4.WrongScreenSize;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 import java.util.Scanner;
 import java.util.logging.FileHandler;
@@ -100,7 +102,7 @@ public abstract class Computer implements ICalculator, IStoreFiles, IIDE, ISearc
 
     public void checkIfLinux() throws LinuxException {
         if(operativeSystem.equalsIgnoreCase("Linux")){
-            LOGGER.log(Level.INFO, "Computer is running on Linux");
+            LOGGER.info("Computer is running on Linux");
         }else {
             throw new LinuxException();
         }
