@@ -1,8 +1,28 @@
 package com.solvd.lab3;
 
-import jdk.swing.interop.SwingInterOpUtils;
+import com.solvd.lab4.WindowsException;
+import com.solvd.lab4.WrongScreenSize;
+
+import java.io.IOException;
+import java.util.logging.FileHandler;
+import java.util.logging.Logger;
+import java.util.logging.Level;
 
 public class Laptop extends Computer {
+
+   public static Logger LOGGER = Logger.getLogger(Laptop.class.getName());
+   public FileHandler fh;
+
+    {
+        try{
+            fh = new FileHandler("src/com/solvd/lab4/Logs.txt", true);
+            LOGGER.addHandler(fh);
+            LOGGER.setLevel(Level.ALL);
+        } catch (IOException ex){
+            ex.printStackTrace();
+        }
+    }
+
 
     public String getProcessor() {
         return processor;
@@ -15,25 +35,20 @@ public class Laptop extends Computer {
     private String processor;
 
     @Override
-    public void setScreenSize(int screenSize) throws CustomException {
+    public void setScreenSize(int screenSize) throws WrongScreenSize {
         super.setScreenSize(screenSize);
     }
 
 
     @Override
-    public int makeSumofNegativeNumbers(int a, int b) throws CustomException {
-        return super.makeSumofNegativeNumbers(a, b);
-    }
-
-    @Override
-    public String checkIfWindows() throws CustomException {
+    public String checkIfWindows() throws WindowsException {
         return super.checkIfWindows();
     }
 
     @Override
     public String getOperativeSystem() {
-        return super.getOperativeSystem();
-    }
+
+        return operativeSystem;}
 
     @Override
     public boolean isTurnedOn() {
@@ -72,7 +87,7 @@ public class Laptop extends Computer {
 
     @Override
     void createFile() {
-        System.out.println("File was created from class Laptop");
+        LOGGER.log(Level.INFO, "File was created from class Laptop");
     }
 
     @Override
@@ -80,34 +95,33 @@ public class Laptop extends Computer {
 
     }
 
-    public Laptop(boolean isTurnedOn) {
+    public Laptop(boolean isTurnedOn) throws CustomException {
         super(isTurnedOn);
     }
 
     public void connectToInternet() {
-        System.out.println("Laptop is connected to the internet");
+        LOGGER.log(Level.INFO, "Laptop is connected to the internet");
     }
 
     @Override
     public void openCalculator() {
-        System.out.println("Hello from calculator");
+        LOGGER.log(Level.INFO, "Hello from calculator");
 
     }
 
     @Override
     public void enterOperation() {
-        System.out.println("Operation made from Laptop");
-
+        LOGGER.log(Level.INFO, "Operation made from Laptop");
     }
 
     @Override
     public void openIDE() {
-        System.out.println("Opening IDE");
+        LOGGER.log(Level.INFO, "Opening IDE");
     }
 
     @Override
     public void writeSomeMessyCode() {
-        System.out.println("Writing some messy code from Laptop #TrueStory");
+        LOGGER.log(Level.INFO, "Writing some code from Laptop");
 
     }
 
@@ -128,19 +142,19 @@ public class Laptop extends Computer {
 
     @Override
     public void openBrowser() {
-        System.out.println("Opening browser from laptop");
+        LOGGER.log(Level.INFO, "Opening browser from laptop");
 
     }
 
     @Override
     public void typeOnSearchEngine() {
-        System.out.println("Searching 'how to improve my java skills'");
+        LOGGER.log(Level.INFO, "Searching 'How to improve my Java skills");
 
     }
 
     @Override
     public void seeSearchResults() {
-        System.out.println("Search results: PRACTICE");
+        LOGGER.log(Level.INFO, "Search results: PRACTICE");
 
     }
 

@@ -1,7 +1,30 @@
 package com.solvd.lab3;
+
+import com.solvd.lab4.WindowsException;
+import com.solvd.lab4.WrongScreenSize;
+
+import java.io.IOException;
+import java.util.logging.FileHandler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 public class Desktop extends Computer {
 
-    public Desktop(boolean isTurnedOn) {
+    public static Logger LOGGER = Logger.getLogger(Desktop.class.getName());
+    public FileHandler fh;
+
+    {
+        try{
+            fh = new FileHandler("src/com/solvd/lab4/Logs.txt", true);
+            LOGGER.addHandler(fh);
+            LOGGER.setLevel(Level.ALL);
+        } catch (IOException ex){
+            ex.printStackTrace();
+        }
+    }
+
+
+    public Desktop(boolean isTurnedOn) throws CustomException {
         super (isTurnedOn);
             }
 
@@ -19,16 +42,10 @@ public class Desktop extends Computer {
 
     @Override
     public String getOperativeSystem() {
-        return super.getOperativeSystem();
-    }
+    return operativeSystem;}
 
     @Override
-    public int makeSumofNegativeNumbers(int a, int b) throws CustomException {
-        return super.makeSumofNegativeNumbers(a, b);
-    }
-
-    @Override
-    public String checkIfWindows() throws CustomException {
+    public String checkIfWindows() throws WindowsException {
         return super.checkIfWindows();
     }
 
@@ -37,7 +54,7 @@ public class Desktop extends Computer {
     }
 
     @Override
-    public void setScreenSize(int screenSize) throws CustomException {
+    public void setScreenSize(int screenSize) throws WrongScreenSize {
         super.setScreenSize(screenSize);
     }
 
@@ -83,8 +100,7 @@ public class Desktop extends Computer {
 
     @Override
     void createFile() {
-        System.out.println("File was created from Desktop");
-
+        LOGGER.log(Level.INFO, "File was created from Desktop");
     }
 
     @Override
@@ -114,19 +130,19 @@ public class Desktop extends Computer {
 
     @Override
     public void openPhotoshop() {
-        System.out.println("Opening Photoshop on Desktop");
+        LOGGER.log(Level.INFO, "Opening Photoshop on desktop");
 
     }
 
     @Override
     public void selectPicture() {
-        System.out.println("Selecting picture from Images @ desktop");
+        LOGGER.log(Level.INFO,"Selecting picture from Images @ desktop");
 
     }
 
     @Override
     public void correctLightning() {
-        System.out.println("Editing picture");
+        LOGGER.log(Level.INFO,"Editing picture");
 
     }
 

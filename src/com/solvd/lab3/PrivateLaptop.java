@@ -2,7 +2,7 @@ package com.solvd.lab3;
 
 final class PrivateLaptop extends Computer{
 
-    public PrivateLaptop(boolean isTurnedOn) {
+    public PrivateLaptop(boolean isTurnedOn) throws CustomException {
         super(isTurnedOn);
     }
 
